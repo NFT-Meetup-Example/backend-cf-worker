@@ -16,8 +16,8 @@ async function handleRequest(request) {
   return new Response(JSON.stringify({ 
       "name": "NFT Meetup #"+pathname[pathname.length - 1],
       "description": "1,000 unique collectible images",
-      "external_url": "http://test.app/",
-      "image": "http://test.app/"+pathname[pathname.length - 1]+".jpg",
+      "external_url": "https://github.com/NFT-Meetup-Example",
+      "image": "https://github.com/NFT-Meetup-Example/images/raw/main/"+pathname[pathname.length - 1]+".jpg",
       "attributes": []
       }
     ), {
